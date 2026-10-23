@@ -170,6 +170,47 @@ def op_pingpong(case, inc, p):
     return solve_pingpong(case, inc)
 
 
+def op_tail(case, inc, p):
+    """CP-SAT free-ended tail repair (improved-plan-2 section 6.4): from the exact state r0 ticks before an
+    acceptance, accept in fewer ticks; the copies after it (if any) are re-planned with the beam."""
+    from l6model import PatternModel
+    from l6graph import program_to_actions
+    from l6solve import actions_to_program
+    from l6exact import Segment
+    rng = random.Random(p['seed'])
+    R, K = case['R'], case['K']
+    pm = PatternModel(case)
+    acts = program_to_actions(inc, pm.sign)
+    acc = simulate_ref(case, inc)
+    k = len(acc) - 1 if rng.random() < 0.7 else rng.randrange(len(acc))
+    seg_start = acc[k - 1] if k > 0 else 0
+    r0 = min(p['r0'], acc[k] - seg_start)
+    t = acc[k] - r0
+    if r0 < 2:
+        return None
+    L, A, b, acc0 = state_at(pm, acts, t, R)
+    built0 = {q for q in range(pm.nP) if (int(b[q >> 6]) >> (q & 63)) & 1}
+    best = None
+    for r in range(r0 - 1, 0, -1):
+        seg = Segment(case, r, start=(L, A), built0=built0, pm=pm)
+        seg.hint(acts[t:t + r], (L, A))
+        if seg.solve(tl=p['tl'], workers=p['workers']) != 'FEASIBLE':
+            break
+        cand = acts[:t] + seg.actions()
+        if k < len(acc) - 1:
+            budget = len(best if best is not None else acts) - len(cand) - 1
+            if budget <= 0:
+                break
+            L2, A2, b2, a2 = state_at(pm, cand, len(cand), R)
+            d, path = run_beam(pm, K, L2, A2, b2, a2, p['W'], budget, p['par'], rng.randrange(1 << 30))
+            if d < 0:
+                break
+            cand = cand + [int(x) for x in path]
+        if _verify(case, actions_to_program(cand, pm.sign)) and len(cand) < len(best if best is not None else acts):
+            best = cand
+    return None if best is None else actions_to_program(best, pm.sign)
+
+
 def polish(case, prog):
     """Cheap deterministic finishers applied to every improvement: ping-pong edges (K>=2), line deletion."""
     from l6post import post_optimize
@@ -181,7 +222,8 @@ def polish(case, prog):
     return post_optimize(case, prog)
 
 
-OPS = {'sym': op_sym, 'suffix': op_suffix, 'graph': op_graph, 'post': op_post, 'pingpong': op_pingpong}
+OPS = {'sym': op_sym, 'suffix': op_suffix, 'graph': op_graph, 'post': op_post, 'pingpong': op_pingpong,
+       'tail': op_tail}
 
 
 def work(job):
@@ -220,9 +262,9 @@ SYMS = [(k, m) for m in (0, 1) for k in range(6)]
 DEFAULTS = {
     '0-example': dict(Wsym=2000, Wsuf=2000, ops='sym:1,suffix:1'),
     '1-small': dict(Wsym=3000, Wsuf=3000, ops='sym:1,suffix:1,graph:1'),
-    '2-medium': dict(Wsym=1000, Wsuf=1500, ops='sym:1,suffix:1,graph:2', gW=1000, gbudget=30),
-    '3-large': dict(Wsym=1600, Wsuf=3200, ops='sym:1,suffix:2,graph:1', gW=600, gbudget=60),
-    '4-enormous': dict(Wsym=1600, Wsuf=3200, ops='sym:1,suffix:2,graph:1', gW=800, gbudget=90),
+    '2-medium': dict(Wsym=1000, Wsuf=1500, ops='sym:1,suffix:1,graph:2,tail:1', gW=1000, gbudget=30),
+    '3-large': dict(Wsym=1600, Wsuf=3200, ops='sym:1,suffix:2,graph:1,tail:1', gW=600, gbudget=60),
+    '4-enormous': dict(Wsym=1600, Wsuf=3200, ops='sym:1,suffix:2,graph:1,tail:1', gW=800, gbudget=90),
 }
 
 
@@ -298,6 +340,10 @@ class Driver:
         elif op == 'graph':
             p.update(W=int(self.opts.get('gW', 600)), budget=float(self.opts.get('gbudget', 60)),
                      slack=int(self.opts.get('slack', 2)))
+        elif op == 'tail':
+            lo, hi = (int(x) for x in str(self.opts.get('tailr', '7-11')).split('-'))
+            p.update(r0=self.rng.randint(lo, hi), tl=float(self.opts.get('tailtl', 40)),
+                     workers=int(self.opts.get('tailw', 1)), W=int(self.opts['Wsuf']))
         self.inflight[i] += 1
         return (self.jid, op, i, self.cases[i], self.best[i], p)
 
