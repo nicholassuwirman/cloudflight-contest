@@ -1,0 +1,140 @@
+[107] R=8 K=1 lines=15 best=15 (was 15) 1.5s
+[48] R=8 K=1 lines=17 best=17 (was 17) 1.6s
+[113] R=8 K=1 lines=10 best=10 (was 10) 0.3s
+[28] R=8 K=1 lines=26 best=26 (was 26) 1.9s
+[146] R=8 K=2 lines=54 best=54 (was 56) 31.0s
+[124] R=8 K=3 lines=57 best=57 (was 57) 31.1s
+[127] R=8 K=6 lines=85 best=85 (was 85) 31.1s
+[77] R=8 K=2 lines=32 best=32 (was 33) 31.2s
+[143] R=8 K=6 lines=143 best=143 (was 143) 31.2s
+[21] R=8 K=2 lines=32 best=32 (was 32) 31.2s
+[60] R=8 K=5 lines=53 best=53 (was 53) 31.2s
+[64] R=8 K=6 lines=127 best=127 (was 127) 31.5s
+[96] R=8 K=1 lines=12 best=12 (was 12) 0.4s
+[141] R=8 K=6 lines=123 best=123 (was 123) 31.5s
+[44] R=7 K=2 lines=36 best=36 (was 36) 30.2s
+[114] R=7 K=2 lines=36 best=36 (was 36) 30.1s
+[59] R=8 K=5 lines=46 best=46 (was 46) 30.2s
+[161] R=8 K=1 lines=16 best=16 (was 16) 0.6s
+[184] R=8 K=4 lines=78 best=78 (was 78) 30.0s
+[100] R=6 K=3 lines=28 best=28 (was 29) 30.1s
+[63] R=7 K=4 lines=49 best=49 (was 49) 30.4s
+[86] R=8 K=6 lines=51 best=51 (was 51) 30.3s
+[145] R=8 K=4 lines=39 best=39 (was 39) 30.2s
+[35] R=8 K=1 lines=9 best=9 (was 9) 0.3s
+[119] R=6 K=4 lines=49 best=49 (was 49) 30.5s
+[97] R=8 K=2 lines=15 best=15 (was 15) 30.2s
+[103] R=8 K=5 lines=81 best=81 (was 81) 30.2s
+[54] R=8 K=5 lines=68 best=68 (was 68) 30.4s
+[165] R=7 K=3 lines=28 best=28 (was 28) 30.1s
+[158] R=7 K=2 lines=28 best=28 (was 28) 30.4s
+[102] R=8 K=6 lines=47 best=47 (was 47) 30.0s
+[162] R=6 K=2 lines=28 best=28 (was 28) 1.2s
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23192, pipe_handle=364)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\spawn.py", line 122, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\spawn.py", line 132, in _main
+    self = reduction.pickle.load(from_parent)
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\connection.py", line 1179, in rebuild_pipe_connection
+    handle = dh.detach()
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\reduction.py", line 131, in detach
+    return _winapi.DuplicateHandle(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        proc, self._handle, _winapi.GetCurrentProcess(),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._access, False, _winapi.DUPLICATE_CLOSE_SOURCE)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23192, pipe_handle=368)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                                     source_process=source_process)
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        source_process, handle, target_process,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        0, inheritable, _winapi.DUPLICATE_SAME_ACCESS)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23192, pipe_handle=356)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                                     source_process=source_process)
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        source_process, handle, target_process,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        0, inheritable, _winapi.DUPLICATE_SAME_ACCESS)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23192, pipe_handle=400)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                                     source_process=source_process)
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        source_process, handle, target_process,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        0, inheritable, _winapi.DUPLICATE_SAME_ACCESS)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23192, pipe_handle=436)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                                     source_process=source_process)
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        source_process, handle, target_process,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        0, inheritable, _winapi.DUPLICATE_SAME_ACCESS)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23192, pipe_handle=484)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                                     source_process=source_process)
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        source_process, handle, target_process,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        0, inheritable, _winapi.DUPLICATE_SAME_ACCESS)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    from multiprocessing.spawn import spawn_main; spawn_main(parent_pid=23192, pipe_handle=488)
+                                                  ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\spawn.py", line 113, in spawn_main
+    new_handle = reduction.duplicate(pipe_handle,
+                                     source_process=source_process)
+  File "C:\Users\Nicholas Wilson\AppData\Local\Programs\Python\Python313\Lib\multiprocessing\reduction.py", line 79, in duplicate
+    return _winapi.DuplicateHandle(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        source_process, handle, target_process,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        0, inheritable, _winapi.DUPLICATE_SAME_ACCESS)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied

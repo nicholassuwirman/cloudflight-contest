@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+*.tmp
+cloudflight-contest/
+.claude/settings.local.json
