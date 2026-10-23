@@ -1,0 +1,211 @@
+#97 lines=2 lb=2 t1=INFEASIBLE cmin=None gaps=[2] 0s
+#2 lines=3 lb=3 t1=INFEASIBLE cmin=None gaps=[3] 0s
+#150 lines=3 lb=3 t1=INFEASIBLE cmin=None gaps=[3] 0s
+#151 lines=3 lb=3 t1=INFEASIBLE cmin=None gaps=[3] 0s
+#169 lines=3 lb=3 t1=INFEASIBLE cmin=None gaps=[3] 0s
+#201 lines=3 lb=3 t1=INFEASIBLE cmin=None gaps=[3] 0s
+#41 lines=4 lb=4 t1=INFEASIBLE cmin=None gaps=[4] 0s
+#65 lines=4 lb=4 t1=INFEASIBLE cmin=None gaps=[4] 0s
+#102 lines=4 lb=4 t1=INFEASIBLE cmin=None gaps=[4] 0s
+#20 lines=5 lb=5 t1=INFEASIBLE cmin=None gaps=[5] 0s
+#43 lines=5 lb=5 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2] 0s
+#75 lines=5 lb=5 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2] 0s
+#79 lines=5 lb=5 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2] 0s
+#204 lines=5 lb=5 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2] 0s
+#69 lines=6 lb=6 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 1, 1, 1] 0s
+#81 lines=6 lb=6 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 3] 0s
+#36 lines=7 lb=7 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2] 0s
+#45 lines=7 lb=7 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3] 0s
+#63 lines=7 lb=7 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3] 0s
+#82 lines=7 lb=7 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3] 0s
+#96 lines=7 lb=7 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2] 0s
+#116 lines=7 lb=7 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2] 0s
+#163 lines=7 lb=7 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3] 0s
+#191 lines=7 lb=7 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3] 0s
+#209 lines=8 lb=8 t1=INFEASIBLE cmin=INFEASIBLE gaps=[2, 2, 2, 2] 0s
+#4 lines=9 lb=5 t1=FEASIBLE cmin=INFEASIBLE gaps=[5, 2, 2] 0s
+#54 lines=9 lb=9 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2] 0s
+#88 lines=9 lb=9 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2] 0s
+#206 lines=9 lb=9 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2] 0s
+#34 lines=10 lb=10 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3] 0s
+#109 lines=10 lb=10 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3] 0s
+#189 lines=10 lb=10 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3] 0s
+#199 lines=10 lb=10 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3] 0s
+#8 lines=11 lb=11 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2] 0s
+#31 lines=11 lb=7 t1=INFEASIBLE cmin=UNKNOWN gaps=[6, 5] 21s
+#42 lines=11 lb=11 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2] 0s
+#104 lines=11 lb=11 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2] 0s
+#135 lines=11 lb=11 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2] 0s
+#148 lines=11 lb=11 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2] 0s
+#64 lines=12 lb=12 t1=INFEASIBLE cmin=INFEASIBLE gaps=[2, 2, 2, 2, 2, 2] 0s
+#89 lines=12 lb=12 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 3, 3, 3] 0s
+#121 lines=12 lb=12 t1=INFEASIBLE cmin=INFEASIBLE gaps=[2, 1, 1, 1, 1, 1] 0s
+#1 lines=13 lb=13 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3] 0s
+#27 lines=13 lb=13 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#52 lines=13 lb=13 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#83 lines=13 lb=13 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3] 0s
+#92 lines=13 lb=13 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#117 lines=13 lb=13 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 4, 4] 6s
+#129 lines=13 lb=13 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#149 lines=13 lb=13 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#174 lines=13 lb=13 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#187 lines=13 lb=8 t1=INFEASIBLE cmin=FEASIBLE gaps=[7, 6] 17s
+#200 lines=13 lb=13 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3] 0s
+#39 lines=14 lb=14 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#87 lines=14 lb=14 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#140 lines=14 lb=14 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#155 lines=14 lb=14 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 3, 3] 1s
+#177 lines=14 lb=14 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#5 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#7 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 1, 1, 1, 1, 1] 0s
+#38 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#74 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#99 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#100 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#103 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 1, 1, 1, 1, 1] 0s
+#118 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#136 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#145 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#179 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#202 lines=15 lb=15 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#15 lines=16 lb=16 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3] 0s
+#101 lines=16 lb=16 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 1, 1, 1, 1, 1] 0s
+#185 lines=16 lb=16 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#46 lines=17 lb=17 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#166 lines=17 lb=17 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#168 lines=17 lb=17 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#196 lines=17 lb=17 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#32 lines=18 lb=18 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 3, 3, 3, 3, 3] 0s
+#157 lines=18 lb=18 t1=INFEASIBLE cmin=INFEASIBLE gaps=[2, 2, 2, 2, 2, 2] 0s
+#16 lines=19 lb=19 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 1, 1, 1, 1, 1] 0s
+#113 lines=19 lb=19 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#193 lines=19 lb=19 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 1, 1, 1, 1, 1] 0s
+#208 lines=19 lb=19 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#11 lines=20 lb=17 t1=FEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#51 lines=21 lb=21 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#66 lines=21 lb=21 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#71 lines=21 lb=21 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 1, 1, 1, 1, 1] 0s
+#73 lines=21 lb=21 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#154 lines=21 lb=21 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#164 lines=21 lb=21 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#170 lines=21 lb=21 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 5, 5, 5] 17s
+#184 lines=21 lb=21 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 5, 5, 5] 21s
+#22 lines=22 lb=22 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#182 lines=22 lb=16 t1=FEASIBLE cmin=INFEASIBLE gaps=[7, 5, 5, 5] 16s
+#205 lines=22 lb=22 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#47 lines=23 lb=23 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#95 lines=23 lb=23 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#108 lines=23 lb=23 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#127 lines=23 lb=23 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 2, 2, 2, 2, 2] 0s
+#152 lines=23 lb=23 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 3, 3, 3, 3] 0s
+#172 lines=23 lb=23 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 3, 3, 3, 3] 1s
+#123 lines=24 lb=24 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#137 lines=24 lb=24 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#195 lines=24 lb=24 t1=INFEASIBLE cmin=INFEASIBLE gaps=[2, 2, 2, 2, 2, 2] 0s
+#198 lines=24 lb=24 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 3, 3, 3, 3, 3] 0s
+#13 lines=25 lb=25 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#29 lines=25 lb=25 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#57 lines=25 lb=25 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#68 lines=25 lb=25 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#78 lines=25 lb=25 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#105 lines=26 lb=23 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 4, 3, 4, 3] 1s
+#6 lines=27 lb=27 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#12 lines=27 lb=27 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#19 lines=27 lb=27 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#59 lines=27 lb=27 t1=INFEASIBLE cmin=INFEASIBLE gaps=[7, 5, 5, 5, 5] 20s
+#91 lines=27 lb=27 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#122 lines=27 lb=27 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#188 lines=27 lb=27 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#10 lines=28 lb=28 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#76 lines=28 lb=28 t1=INFEASIBLE cmin=INFEASIBLE gaps=[2, 2, 2, 2, 2, 2] 0s
+#84 lines=28 lb=28 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#111 lines=28 lb=25 t1=FEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#194 lines=28 lb=28 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#14 lines=29 lb=29 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#18 lines=29 lb=29 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#23 lines=29 lb=29 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#60 lines=29 lb=29 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#94 lines=29 lb=29 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#120 lines=29 lb=29 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#186 lines=29 lb=11 t1=INFEASIBLE cmin=UNKNOWN gaps=[8, 7, 7, 7] 35s
+#17 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#37 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#61 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#62 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#67 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#112 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#134 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#143 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#160 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#165 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#173 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#175 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#183 lines=31 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#192 lines=31 lb=11 t1=INFEASIBLE cmin=FEASIBLE gaps=[6, 5, 5, 5, 5, 5] 3s
+#58 lines=32 lb=5 t1=UNKNOWN cmin=UNKNOWN gaps=[8, 6, 6, 6, 6] 40s
+#106 lines=32 lb=32 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#147 lines=32 lb=31 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 3, 2, 2, 2, 2] 0s
+#176 lines=32 lb=32 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#77 lines=33 lb=33 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 4, 4, 4, 4, 4] 5s
+#86 lines=33 lb=33 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 3, 3, 3, 3, 3] 2s
+#190 lines=33 lb=29 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 4, 3, 4, 3] 1s
+#98 lines=34 lb=34 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#114 lines=34 lb=31 t1=FEASIBLE cmin=INFEASIBLE gaps=[4, 2, 2, 2, 2, 2] 0s
+#3 lines=35 lb=35 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 3, 3, 3, 3] 0s
+#53 lines=35 lb=35 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#85 lines=35 lb=35 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#93 lines=35 lb=35 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#139 lines=35 lb=35 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#55 lines=37 lb=37 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#171 lines=37 lb=37 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 4, 4, 4, 4, 4] 5s
+#24 lines=38 lb=38 t1=INFEASIBLE cmin=INFEASIBLE gaps=[2, 2, 2, 2, 2, 2] 0s
+#30 lines=38 lb=37 t1=INFEASIBLE cmin=INFEASIBLE gaps=[7, 6, 5, 5, 5, 5] 31s
+#90 lines=39 lb=39 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 3, 3, 3, 3, 3] 1s
+#156 lines=39 lb=39 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#159 lines=39 lb=39 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 2, 2, 2, 2, 2] 0s
+#115 lines=40 lb=40 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#126 lines=41 lb=41 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 3, 3, 3, 3] 0s
+#133 lines=41 lb=41 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 4, 4, 4, 4, 4] 5s
+#0 lines=43 lb=43 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#40 lines=43 lb=43 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#44 lines=43 lb=43 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#70 lines=43 lb=43 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#124 lines=43 lb=31 t1=FEASIBLE cmin=INFEASIBLE gaps=[8, 6, 5, 6, 6, 6] 19s
+#178 lines=43 lb=43 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#110 lines=44 lb=42 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 4, 4, 3, 3, 3] 0s
+#48 lines=46 lb=46 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#56 lines=46 lb=46 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 1s
+#180 lines=50 lb=49 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 5, 4, 4, 4, 4] 2s
+#28 lines=51 lb=50 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 5, 4, 4, 4, 4] 2s
+#72 lines=51 lb=50 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 4, 3, 3, 3] 0s
+#146 lines=51 lb=51 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 3, 3, 3, 3, 3] 0s
+#26 lines=52 lb=52 t1=INFEASIBLE cmin=INFEASIBLE gaps=[7, 5, 5, 5, 5, 5] 27s
+#125 lines=52 lb=52 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#128 lines=52 lb=52 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#21 lines=53 lb=53 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 3, 3, 3, 3] 0s
+#25 lines=53 lb=53 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 3, 3, 3, 3] 1s
+#131 lines=53 lb=49 t1=FEASIBLE cmin=INFEASIBLE gaps=[5, 3, 3, 3, 3, 3] 0s
+#141 lines=53 lb=53 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 3, 3, 3, 3] 0s
+#162 lines=53 lb=53 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 3, 3, 3, 3, 3] 0s
+#33 lines=57 lb=57 t1=INFEASIBLE cmin=INFEASIBLE gaps=[3, 3, 3, 3, 3, 3] 0s
+#142 lines=57 lb=18 t1=INFEASIBLE cmin=FEASIBLE gaps=[5, 4, 4, 4, 4, 4] 4s
+#153 lines=58 lb=58 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#181 lines=58 lb=58 t1=INFEASIBLE cmin=INFEASIBLE gaps=[4, 3, 3, 3, 3, 3] 0s
+#132 lines=60 lb=6 t1=FEASIBLE cmin=UNKNOWN gaps=[13, 8, 8, 12, 9, 10] 23s
+#161 lines=61 lb=7 t1=FEASIBLE cmin=FEASIBLE gaps=[9, 8, 8, 10, 9, 8] 19s
+#138 lines=62 lb=62 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 4, 4, 4, 4, 4] 5s
+#207 lines=62 lb=62 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 4, 4, 4, 4, 4] 4s
+#107 lines=66 lb=66 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 4, 4, 4, 4, 4] 3s
+#9 lines=69 lb=69 t1=INFEASIBLE cmin=INFEASIBLE gaps=[5, 4, 4, 4, 4, 4] 10s
+#197 lines=73 lb=8 t1=FEASIBLE cmin=UNKNOWN gaps=[10, 9, 8, 10, 8, 10] 35s
+#203 lines=73 lb=66 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 4, 5, 4, 5, 4] 7s
+#80 lines=74 lb=74 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 4, 4, 4, 4, 4] 6s
+#144 lines=77 lb=76 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 6, 5, 5, 5, 5] 20s
+#119 lines=78 lb=70 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 5, 4, 5, 4, 5] 5s
+#49 lines=82 lb=16 t1=UNKNOWN cmin=UNKNOWN gaps=[7, 5, 5, 5, 5, 5] 40s
+#130 lines=84 lb=77 t1=INFEASIBLE cmin=INFEASIBLE gaps=[7, 6, 5, 6, 5, 6] 14s
+#158 lines=84 lb=21 t1=INFEASIBLE cmin=UNKNOWN gaps=[7, 5, 6, 6, 5, 5] 27s
+#35 lines=86 lb=86 t1=INFEASIBLE cmin=INFEASIBLE gaps=[6, 5, 5, 5, 5, 5] 19s
+#50 lines=115 lb=25 t1=INFEASIBLE cmin=UNKNOWN gaps=[7, 6, 6, 6, 6, 6] 39s
+#167 lines=153 lb=17 t1=FEASIBLE cmin=UNKNOWN gaps=[10, 9, 9, 8, 9, 8] 23s
+2-medium: patterns=210 lines=6000 lb=5287 gap=713

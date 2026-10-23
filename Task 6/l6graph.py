@@ -99,6 +99,7 @@ class CopyGraph:
         self.expanded = []     # expansion count
         self.esrc, self.edst, self.ew, self.eacts, self.eend = [], [], [], [], []
         self.edge_set = {}     # (src, dst) -> edge index with min weight
+        self.log = None        # list -> every added segment (exact frame) is appended (ping-pong expansion)
         self.add_node(self.start)
 
     def add_node(self, cfg):
@@ -113,6 +114,8 @@ class CopyGraph:
 
     def add_edge_exact(self, cfg_from, acts, cfg_to):
         """Add segment given in the exact frame of cfg_from."""
+        if self.log is not None:
+            self.log.append((cfg_from, list(acts)))
         s = self.add_node(cfg_from)
         m = swap_mask(self.nodes[s], cfg_from)
         acts = [swap_act(a, m) for a in acts]
@@ -197,10 +200,27 @@ class CopyGraph:
 
 
 def solve_graph(case, incumbent=None, budget=30.0, maxExp=400, W=300, CAP=3000, Wstart=None, slack=2,
-                MAXE=512, iB=4, iP=1, wS=0.05, wM=0.5, seed=1, alpha=0.8, verbose=False):
+                MAXE=512, iB=4, iP=1, wS=0.05, wM=0.5, seed=1, alpha=0.8, verbose=False, pp=False):
     t0 = time.time()
     g = CopyGraph(case)
     K = case['K']
+    if pp:
+        # ping-pong expansion: every added segment also yields its reverse / replay variants (l6pp)
+        from l6pp import SegSim, add_pp_edges
+        g.log = []
+        sim = SegSim(g.pm)
+        seen = set()
+
+        def pp_round():
+            for _ in range(3):
+                segs, g.log = g.log, []
+                if not segs:
+                    break
+                add_pp_edges(g, sim, segs, seen)
+            g.log = []
+    else:
+        def pp_round():
+            pass
     if incumbent is not None:
         g.seed_program(incumbent)
     pm = g.pm
@@ -210,6 +230,7 @@ def solve_graph(case, incumbent=None, budget=30.0, maxExp=400, W=300, CAP=3000, 
         maxT0 = min(maxT0, len(incumbent))
     # start node: first build (more endpoints)
     g.expand(0, Wstart or W, (Wstart or W) * 10, maxT0 + slack + 1, slack, MAXE, iB, iP, wS, wM, seed)
+    pp_round()
     nexp = 1
     best_total = INF
     best_prog = None
@@ -238,6 +259,7 @@ def solve_graph(case, incumbent=None, budget=30.0, maxExp=400, W=300, CAP=3000, 
             break
         wmax = int(w.max()) if len(w) else maxT0
         g.expand(nid, W, CAP, min(wmax, best_total) + slack + 1, slack, MAXE, iB, iP, wS, wM, seed + nexp)
+        pp_round()
         nexp += 1
     if verbose:
         print(f'graph: nodes={len(g.nodes)} edges={len(g.esrc)} exp={nexp} total={best_total} '
